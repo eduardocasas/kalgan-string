@@ -3,27 +3,27 @@
 A collection of functions for string manipulation used by Kalgan Framework.
 
 ## Examples
-```
+```rust
 use kalgan_string;
 
 assert_eq!(kalgan_string::strip("-Hello World-", '-'), "Hello World");
-```
+```rust
 ```
 use kalgan_string;
 
 assert_eq!(kalgan_string::strip_right("Hello World", 'd'), "Hello Worl");
 ```
-```
+```rust
 use kalgan_string;
 
 assert_eq!(kalgan_string::strip_left("Hello World", 'H'), "ello World");
 ```
-```
+```rust
 use kalgan_string;
 
 assert_eq!(kalgan_string::strip_both("Hello World", 'H', 'd'), "ello Worl");
 ```
-```
+```rust
 use kalgan_string;
 
 assert_eq!(kalgan_string::is_numeric("1.000"), true);
