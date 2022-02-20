@@ -7,8 +7,8 @@ A collection of functions for string manipulation used by Kalgan Framework.
 use kalgan_string;
 
 assert_eq!(kalgan_string::strip("-Hello World-", '-'), "Hello World");
-```rust
 ```
+```rust
 use kalgan_string;
 
 assert_eq!(kalgan_string::strip_right("Hello World", 'd'), "Hello Worl");
