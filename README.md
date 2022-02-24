@@ -33,7 +33,7 @@ assert_eq!(kalgan_string::is_numeric("1.000"), true);
 For further information please visit:
 
 * [Official Kalgan Site](https://kalgan.eduardocasas.com)
-* [API Documentation on docs.rs](https://docs.rs/crate/kalgan-string/latest)
+* [API Documentation on docs.rs](https://docs.rs/kalgan-string)
 
 
 ## License
